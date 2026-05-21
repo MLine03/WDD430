@@ -14,14 +14,13 @@ export default function Page() {
 
           <Link
             href="/login"
-            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-white"
+            className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-white transition-colors hover:bg-blue-400"
           >
             <span>Log in</span>
-            <ArrowRightIcon className="w-5" />
+            <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
       </div>
     </main>
   );
-}
 }
