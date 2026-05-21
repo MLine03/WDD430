@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Next.js Dashboard',
+  description: 'Next.js Learn Dashboard App',
+};
+
 export default function RootLayout({
   children,
 }: {
