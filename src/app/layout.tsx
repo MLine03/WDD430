@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Handcrafted Haven",
-  description: "WDD430 Next.js Project",
+  description: "WDD430 Project",
 };
 
 export default function RootLayout({
