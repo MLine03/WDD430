@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2017",
+<<<<<<< HEAD
     "lib": ["dom", "dom.iterable", "esnext"],
+=======
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+>>>>>>> c13c237c4e9c2ebf4e88e01c1a0040171db44ba0
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -11,15 +19,27 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+<<<<<<< HEAD
     "jsx": "react-jsx",
+=======
+    "jsx": "preserve",
+>>>>>>> c13c237c4e9c2ebf4e88e01c1a0040171db44ba0
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
+<<<<<<< HEAD
     "paths": {
       "@/*": ["./*"]
+=======
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+>>>>>>> c13c237c4e9c2ebf4e88e01c1a0040171db44ba0
     }
   },
   "include": [
@@ -27,8 +47,18 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
+<<<<<<< HEAD
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
   "exclude": ["node_modules"]
+=======
+    "app/lib/placeholder-data.ts",
+    "scripts/seed.js",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+>>>>>>> c13c237c4e9c2ebf4e88e01c1a0040171db44ba0
 }
