@@ -1,19 +1,14 @@
-import Navbar from "../components/Navbar";
-
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <main className="min-h-screen p-10">
+      <h1 className="text-5xl font-bold">
+        Handcrafted Haven
+      </h1>
 
-      <main className="p-10">
-        <h1 className="text-5xl font-bold mb-4">
-          Welcome to Handcrafted Haven
-        </h1>
-
-        <p className="text-lg">
-          Discover handmade products crafted with care.
-        </p>
-      </main>
-    </>
+      <p className="mt-4 text-lg">
+        Discover unique handmade products from
+        talented artisans.
+      </p>
+    </main>
   );
 }
