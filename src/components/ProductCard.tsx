@@ -4,11 +4,10 @@ export default function ProductCard({ product }: any) {
   return (
     <div className="border rounded-xl p-4 bg-white shadow-sm">
       <div className="relative w-full h-48 mb-3">
-        <Image
+        <img
           src={product.image}
           alt={product.name}
-          fill
-          className="object-cover rounded"
+          className="w-full h-48 object-cover rounded mb-3"
         />
       </div>
 
