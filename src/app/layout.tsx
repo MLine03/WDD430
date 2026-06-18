@@ -1,10 +1,5 @@
 import "./globals.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Handcrafted Haven",
-  description: "WDD430 Project",
-};
+import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
   children,
@@ -13,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

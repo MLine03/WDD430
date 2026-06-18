@@ -17,6 +17,15 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    // Silence deprecation warning for baseUrl in TS 6.x
+    "ignoreDeprecations": "6.0",
+    // ✅ IMPORTANT FIX (this is what was missing)
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
     "plugins": [
       {
         "name": "next"
